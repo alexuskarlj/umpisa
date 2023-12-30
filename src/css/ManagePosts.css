@@ -1,0 +1,91 @@
+/* ManagePosts.css */
+
+#manage-posts-container {
+    margin-left: 250px; /* Adjust the value as needed */
+    padding: 20px;
+    box-sizing: border-box;
+    width: calc(100% - 250px); /* Set the width to 100% minus the left margin */
+    overflow-x: hidden; /* Hide the horizontal scroll bar */
+}
+
+#manage-posts-container .add-button {
+    background-color: #4CAF50; /* Green for Add */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#manage-posts-container .update-button {
+    background-color: #0000b6; /* Blue for Update */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+#manage-posts-container .delete-button {
+    background-color: #b00000; /* Red for Delete */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.manage-posts-container {
+    margin-left: 250px; /* Adjust the value as needed */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    width: calc(100% - 250px); /* Set the width to 100% minus the left margin */
+    overflow-x: hidden; /* Hide the horizontal scroll bar */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    word-wrap: break-word; /* Allow long words to break into a new line */
+    max-width: 100%; /* Ensure the content does not overflow */
+    text-align: center; /* Center the content horizontally */
+}
+
+th {
+    font-weight: bold;
+    background-color: #e0e0e0;
+}
+
+button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+/* Add styles for hidden field (optional) */
+input[type="hidden"] {
+    display: none;
+}

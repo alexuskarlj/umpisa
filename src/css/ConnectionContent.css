@@ -1,0 +1,73 @@
+/* connections-content class styles */
+.connections-content {
+  margin-left: 250px; /* Adjust the left margin as needed */
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: calc(100% - 250px); /* Set the width to 100% minus the left margin */
+  overflow-x: hidden; /* Hide the horizontal scrollbar */
+}
+
+/* Table styles */
+.connections-table {
+  padding-top: 10px;
+  width: 100%;
+}
+
+/* Table row styles */
+.connections-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+/* Table cell styles */
+.connections-cell {
+  flex: 1;
+  padding: 5px 10px;
+}
+
+/* Container for buttons */
+.connections-button-container {
+  display: flex;
+  gap: 1px;
+}
+
+/* Remove button styles */
+.connections-remove-button {
+  background-color: #b00000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Update button styles */
+.connections-update-button {
+  background-color: #0000b6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Header row styles */
+.connections-row.header {
+  font-weight: bold;
+  background-color: #e0e0e0;
+}
+
+/* Add button styles */
+.connections-add-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}

@@ -1,0 +1,64 @@
+/* Styles for the modal container */
+.email-form-modal {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Styles for the modal overlay */
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* Styles for the buttons within the modal */
+.modal-buttons {
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white; /* Set text color to white for all buttons */
+}
+
+/* Styles for the Save button */
+.modal-buttons .save-button {
+  background-color: #2196F3; /* Change the background color of the Save button to blue (#2196F3) */
+}
+
+.modal-buttons .save-button:hover {
+  background-color: #0f77c6; /* Change the hover background color of the Save button to a darker blue (#0f77c6) */
+}
+
+/* Styles for the Cancel button */
+.modal-buttons .cancel-button {
+  background-color: #f44336; /* Change the background color of the Cancel button to red (#f44336) */
+  color: white; /* Set text color to white for the Cancel button */
+}
+
+.modal-buttons .cancel-button:hover {
+  background-color: #d32f2f; /* Change the hover background color of the Cancel button to a darker red (#d32f2f) */
+}
+
+/* Styles for the email input field */
+.email-input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

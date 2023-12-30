@@ -1,0 +1,91 @@
+/* Improved Styling for Posts List */
+
+.posts-list {
+  margin-top: 20px;
+}
+
+.post {
+  background-color: #4CAF50;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px; /* Increased margin for better separation */
+  width: 96%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; /* Reduced margin for a compact look */
+  font-size: 16px; /* Increased font size for better readability */
+}
+
+.post-header h2 {
+  margin: 0;
+}
+
+.post p {
+  margin: 0;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #333; /* Changed cursor and text color for better interaction */
+}
+
+/* Improved Styling for Modal */
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border-radius: 4px; /* Added border radius for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added box shadow for depth */
+  max-width: 80%; /* Increased maximum width for better visibility */
+}
+
+.close {
+  float: right;
+  font-size: 24px; /* Increased font size for better visibility */
+  color: #555; /* Changed color for subtlety */
+  transition: color 0.3s ease; /* Added transition for hover effect */
+}
+
+.close:hover,
+.close:focus {
+  color: #333; /* Changed color on hover for better feedback */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Styling for Filter Buttons */
+
+.filter-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  color: #007BFF; /* Added color for better visibility */
+  font-weight: bold; /* Increased font weight for emphasis */
+}
+
+.filter-button.active {
+  text-decoration: underline;
+}

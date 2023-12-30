@@ -1,0 +1,109 @@
+/* Main Sidebar styles */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #f9f9f9;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+/* Logo styles */
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 60%;
+    margin: 0 auto;
+    height: auto;
+}
+
+/* Menu Section styles */
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.menu-title {
+    font-size: 22px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.menu-item:hover, .menu-item.active {
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-icon {
+    width: 18px; /* Set the width of the icons */
+    height: 18px; /* Set the height of the icons */
+    margin-right: 10px; /* Add some spacing between the icon and text */
+}
+
+/* Media Query for Responsive Sidebar */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%; /* Make the sidebar full width */
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .logo img {
+        width: 80%; /* Adjust logo width for smaller screens */
+    }
+
+    .menu-title {
+        font-size: 18px; /* Adjust font size for menu titles */
+    }
+
+    .menu-item {
+        font-size: 16px; /* Adjust font size for menu items */
+        padding: 10px 15px; /* Adjust padding for menu items */
+    }
+}
+
+
+
+
+/* Rest of your sidebar styles remain the same */
+
+/* Adjusted Content Area Styles */
+.content {
+    margin-left: 250px; /* Increased margin to prevent overlap with sidebar */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* Adjusted Sidebar Styles for Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        padding: 10px;
+        position: static;
+    }
+
+    .content {
+        margin-left: 0; /* Reset margin for smaller screens */
+        padding: 10px; /* Adjust padding for consistency */
+    }
+}
