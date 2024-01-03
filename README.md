@@ -40,6 +40,29 @@ Run the server
 
 The App should already be running at http://localhost:3000/
 
+### Credentials Setup
+
+You can create account by using these steps
+
+Create Python Super User
+```bash
+  cd umpisa/umpisabackend/
+  python manage.py createsuperuser
+```
+There should be a prompt asking for Email Address and Password
+
+After a successful creation,
+You can also create using Python Django Admin Interface
+by navigating to http://127.0.0.1:8000/admin/ 
+
+You can login with your superuser account or any account that you will create 
+under the Admin Interface
+
+You can also use:
+```bash
+  Email: user@user.com
+  Password: user
+```
 
 Let me know if you have questions
 Feel free to send me an email at:
